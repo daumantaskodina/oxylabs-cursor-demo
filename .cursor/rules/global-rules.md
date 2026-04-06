@@ -1,7 +1,5 @@
 # Global Rules
 
-> Example file. Copy the contents into Cursor → Settings → Rules for AI in your own projects and adapt to your workflow.
-
 Generic best practices for how AI should behave in any project.
 
 ## Role

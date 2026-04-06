@@ -50,15 +50,6 @@ Open [http://localhost:3000](http://localhost:3000).
 - **Blank page or error overlay** — Look at the Terminal where `npm run dev` is running; copy the error message into Cursor and ask what to do.
 - **Figma not connecting** — Confirm the [Figma integration](https://cursor.com/en-US/marketplace/figma) is installed and you are logged into the same Figma account that can open the file.
 
----
-
-## For facilitators and developers
-
-### Project layout
-
-See [docs/structure.md](docs/structure.md) for a short map of folders and what they are for.
-
-**Live session checklist:** [docs/workshop/facilitator-checklist.md](docs/workshop/facilitator-checklist.md).
 
 ### Stack
 
