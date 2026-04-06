@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@400;550;700&family=Roboto+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -5,6 +6,24 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  /* Oxylabs custom tokens */
+  --color-oxy-default: #130F35;
+  --color-oxy-header-top: rgba(19, 15, 53, 0.05);
+  --color-oxy-button-neutral: #7971BC;
+  --color-oxy-card-hover: #FBFCFE;
+  --color-oxy-accent: #23E6A8;
+  --spacing-section: 24px;
+  --radius-base: 4px;
+  --font-anek: "Anek Latin", sans-serif;
+  --font-code: "Roboto Mono", monospace;
+  --color-default: #130f35;
+  --shadow-tab: 0 2px 5px 0 rgba(126, 14, 167, 0.1);
+  /* Data dashboard / buttons (Tailwind v4 theme tokens) */
+  --color-button-secondary: #130f35;
+  --color-button-reverse: #f7f7fd;
+  --color-button-hover-secondary: #24204c;
+  --color-button-focus: #130f35;
+  --radius-card-base: 24px;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sans);
@@ -117,12 +136,43 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+:root {
+  --size-1: 4px;
+  --size-2: 8px;
+  --size-5: 20px;
+  --size-6: 24px;
+  --size-8: 32px;
+  --neutral-50: #ffffff;
+  --scrapi-50: #fff5fd;
+  --scrapi-alpha-10: rgba(211, 29, 232, 0.1);
+  --scrapi-alpha-5: rgba(211, 29, 232, 0.05);
+}
+
+.font-code {
+  font-family: "Roboto Mono", monospace;
+}
+
+.xl-paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.base-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.font-width-normal {
+  font-stretch: normal;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Anek Latin', sans-serif;
   }
   html {
     @apply font-sans;

@@ -2,6 +2,8 @@
 
 > Example file. Copy this into `.cursor/rules/product.md` in your own project and replace everything in [brackets] with your real details.
 
+**This workshop repo:** the sample app is a single marketing-style page: header navigation, hero (“web scraper” block), a data-dashboard feature section, and a footer with copyright, mailto links, English/中文 language switch, social icons, and payment-method marks. Step-by-step guides for designers live in `docs/workshop/` (see repo `README.md`).
+
 What this project is, who it's for, and where it's going.
 
 ## What this is

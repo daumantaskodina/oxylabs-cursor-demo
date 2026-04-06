@@ -1,6 +1,5 @@
 # Tech Rules
 
-> Example file. Copy this into `.cursor/rules/tech.md` in your own project and replace with your real stack decisions.
 
 Stack, frameworks, and coding conventions.
 
@@ -13,6 +12,8 @@ Stack, frameworks, and coding conventions.
 
 ## Code Organization
 
+- Workshop onboarding for this demo repo: `docs/workshop/`; full folder map: `docs/structure.md`.
+- shadcn-style primitives and shared UI live under `components/ui/` (e.g. `button.tsx`, `footer-bottom.tsx`). Use `@/lib/utils` (`cn`) for class merging.
 - File naming: kebab-case for files, PascalCase for components. Group by feature, not by type.
 - Imports: absolute paths with @/ alias. Group by: external libs, internal modules, components, types. Separate with blank lines.
 - Functions should do one thing. If a function is longer than 30 lines, it probably needs to be split.
